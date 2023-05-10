@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HistoryViewerClass</class>
+ <widget class="QWidget" name="HistoryViewerClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HistoryViewer</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>70</y>
+     <width>231</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>等线</family>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Flappy Bird 是一款&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;让人爱不释手的游戏，&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;它的玩法就是让一只小鸟不停地撞墙。&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;它的魅力在于，&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;无论你玩得多糟糕，&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;你总想再试一次。&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;它的悲哀在于，&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;无论你玩得多好，&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;你总会撞墙。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Titlelabel">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>20</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ark Pixel 12px monospaced zh_cn</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>历史记录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ClearpushButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>340</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清空记录</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>351</width>
+     <height>401</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

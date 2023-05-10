@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutClass</class>
+ <widget class="QMainWindow" name="AboutClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>671</width>
+    <height>528</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>About</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>361</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ark Pixel 12px monospaced zh_cn</family>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Flappy Bird&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Versionlabel">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>90</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Version: Beta 0.1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>621</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;这是一个模仿 Flappy Bird 的游戏，它是我在大学本科一年级的课程设计作品。&lt;/p&gt;&lt;p&gt;我使用了Qt，EasyX，irrKlang等闭源项目，以及Rapidjson等开源项目来实现这个游戏。&lt;/p&gt;&lt;p&gt;虽然这个游戏并不完美，还有很多可以改进的地方，但是我还是很享受编程的过程，并且从中学到了很多知识和技能。&lt;/p&gt;&lt;p&gt;在此，我要感谢所有为这些项目做出贡献的人员，没有他们的努力，就没有这个游戏的基础。&lt;/p&gt;&lt;p&gt;Flappy Bird是一个简单而有趣的游戏，玩家需要控制一只小鸟在不断出现的管道之间飞行，尽量避免碰撞。&lt;/p&gt;&lt;p&gt;每通过一个管道，就可以得到一分。这个游戏看起来很容易，但是实际上很难，需要玩家有很好的反应能力和耐心。&lt;/p&gt;&lt;p&gt;这个游戏最初是由越南开发者Nguyễn Hà Đông在2013年开发并发布的，后来因为各种原因而从各大应用商店下架。&lt;/p&gt;&lt;p&gt;在此，我要对Flappy Bird的原作者表示最高的敬意和感谢，他的灵感和创作给了我和无数玩家无限的乐趣和挑战。&lt;br/&gt;&lt;/p&gt;&lt;p&gt;最后，我要感谢我的老师和同学们对我的支持和鼓励，他们给了我很多宝贵的意见和建议。&lt;/p&gt;&lt;p&gt;我也要感谢互联网上广泛的资料和资源，让我能够更好地学习和完成这个项目。&lt;/p&gt;&lt;p&gt;特别要感谢原游戏音效的创作者以及游戏中用到的音乐的作者，他们的作品让这个游戏更加生动和有趣。&lt;/p&gt;&lt;p&gt;还要特别提到Hinuo同学，他为这个游戏的艺术设计提供了很多优秀的素材和建议。&lt;/p&gt;&lt;p&gt;最后还要感谢所有参与测试这个游戏的同学们，如果没有他们的反馈和帮助，我就无法呈现出这个作品。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;希望你们喜欢这个游戏，并且能够享受飞翔的快乐！&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;By Reyes (with New Bing)&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Iconlabel">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>20</y>
+      <width>121</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>490</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="ConfirmpushButton">
+       <property name="text">
+        <string>确定</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="GitHubpushButton">
+       <property name="text">
+        <string>GitHub</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

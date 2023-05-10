@@ -1,0 +1,131 @@
+{
+    "property": "United States - English",
+    "tips": [
+        "The top is more dangerous than the bottom.",
+        "Don't be afraid to fall.",
+        "Harness gravity's rainbow.",
+        "Manage your stress."
+    ],
+    "enabled": "enabled",
+    "disabled": "disabled",
+    "log": "Game logs:",
+    "time": "Time",
+    "score": "Score",
+    "click": "Click one time.",
+    "plus": "Plus one point.",
+    "leaderboard": "Do you want to add this result to the leaderboard (please note that the name recorded here will not change as you modify the user name)?",
+    "choose_notice": "Note: Please use the arrow keys to select up and down, and press Enter to confirm the option.",
+    "wait": "Press any key to continue.",
+    "title": "Flappy Bird",
+    "error": {
+        "pwd_not_match": "Error: The two entered passwords do not match.",
+        "login": "WARNING: An error has occurred, either due to an incorrect account or password, or due to corrupted files.",
+        "signup": "ERROR: Duplicate username."
+    },
+    "lang_changer": "Please choose a language you are familiar with! (Restart to take effect.)",
+    "hello": [
+        "Hello, ",
+        "!"
+    ],
+    "construction": "This page is still under construction!",
+    "about": "In this game, you need to control a bird to pass through pairs of water pipes, and the height of these water pipes is randomly generated. This game seems simple, but it really tests the player's reaction speed and hand-eye coordination. If you want to challenge your limit, come and try it!",
+    "select_note": "Note: Please use the arrow keys to select up and down, and press Enter to confirm the option.",
+    "menu_welcome": {
+        "intro": "Welcome to play my Flappy Bird!\nPlease select an option to continue :-)",
+        "options": [
+            "Log in to an existing account.",
+            "Sign up for a new account.",
+            "Change language.",
+            "About the game.",
+            "Exit the game."
+        ],
+        "ask": ""
+    },
+    "loaded": "The program is loaded, press any key to continue...",
+    "username": "Username: ",
+    "bird": "Bird: ",
+    "background": "Background: ",
+    "ground": "Ground: ",
+    "sound": "Sound: ",
+    "bgm": "BGM: ",
+    "bgm.file": "BGM file: ",
+    "best": "Best score: ",
+    "password": "Password: ",
+    "user_creator": {
+        "status": "You are creating a new account.",
+        "username": [
+            "Come up with a ",
+            "USERNAME",
+            " for your new account:"
+        ],
+        "note": "Note: It is normal for you to lose sight of characters when typing your password.",
+        "password": [
+            "Consider an appropriate ",
+            "PASSWORD",
+            " for your new account:"
+        ],
+        "reinput": [
+            "Please ", 
+            "re-enter", 
+            " the previous PASSWORD:"
+        ],
+        "success": "Well done! We are creating new account for you."
+    },
+    "user_login": {
+        "status": "You are logging into an existing account.",
+        "username": [
+            "Please enter your ", 
+            "USERNAME", 
+            ":"
+        ],
+        "password": [
+            "Next enter your account ", 
+            "PASSWORD", 
+            ":"
+        ]
+    },
+    "menu_main": {
+        "intro": "Welcome back to our game! We're glad you're here to play. Please select an option below to continue the game.",
+        "options": [
+            "Start a game.",
+            "View my history.",
+            "Show my information.",
+            "Change my information.",
+            "Show Leaderboard.",
+            "Exit."
+        ],
+        "ask":""
+    },
+    "menu_user": {
+        "intro": "Please select the user information you want to modify:",
+        "options": [
+            "Username.",
+            "Password.",
+            "Bird.",
+            "Background.",
+            "Ground.",
+            "BGM.",
+            "BGM file.",
+            "Sound.",
+            "Clear history.",
+            "Return."
+        ],
+        "ask": ""
+    },
+    "menu_switch": {
+        "intro": "Choose whether to enable.",
+        "options": [
+            "Enable.",
+            "Disable."
+        ],
+        "ask": ""
+    },
+    "change_name": "Please enter a new username.",
+    "change_password": [
+        "Please enter the original password:",
+        "Please enter a new password:",
+        "Re-enter the new password.",
+        "Something went wrong."
+    ],
+    "change_others": "Please refer to resources.json to modify this file."
+}

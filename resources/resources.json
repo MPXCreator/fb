@@ -1,0 +1,108 @@
+{
+    "backgrounds": [
+        "day.png",
+        "night.png",
+        "angrybird.png",
+        "ironman.png",
+        "minecraft.png"
+    ],
+    "bgm": [
+        "C418 - Cat.flac",
+        "C418 - Dog.flac"
+    ],
+    "birds": {
+        "angry": [
+            "angry_0.png",
+            "angry_1.png",
+            "angry_2.png"
+        ],
+        "blue": [
+            "blue_0.png",
+            "blue_1.png",
+            "blue_2.png"
+        ],
+        "ironman": [
+            "ironman_0.png",
+            "ironman_1.png",
+            "ironman_2.png"
+        ],
+        "mask": [
+            "mask_0.png",
+            "mask_1.png",
+            "mask_2.png"
+        ],
+        "red": [
+            "red_0.png",
+            "red_1.png",
+            "red_2.png"
+        ],
+        "steve": [
+            "steve_0.png",
+            "steve_1.png",
+            "steve_2.png"
+        ],
+        "yellow": [
+            "yellow_0.png",
+            "yellow_1.png",
+            "yellow_2.png"
+        ]
+    },
+    "grounds": [
+        "normal.png",
+        "angrybird.png",
+        "ironman.png",
+        "minecraft.png"
+    ],
+    "headers": [
+        "bigchief",
+        "bigmoney",
+        "cards",
+        "cola",
+        "contessa",
+        "cursive",
+        "fire",
+        "flower",
+        "ghost",
+        "graceful",
+        "graffiti",
+        "hollywood",
+        "invita",
+        "italic",
+        "lean",
+        "merlin",
+        "peaks",
+        "puzzle",
+        "roman",
+        "smkeyboard",
+        "speed"
+    ],
+    "lang": [
+        "en_us",
+        "zh_cn",
+        "zh_hk",
+        "zh_wy",
+        "en_uk",
+        "ja-jp",
+        "ko_kr",
+        "ru_ru"
+    ],
+    "title": [
+        "CLASSIC.png",
+        "MC.png",
+        "ANGRY.png",
+        "IRONMAN.png"
+    ],
+    "pipes": [
+        "red.png",
+        "green.png",
+        "gold.png",
+        "silver.png",
+        "mc_green.png"
+    ],
+    "sounds": {
+        "die": "die.wav",
+        "flap": "flap.wav",
+        "hit": "hit.wav",
+        "score": "point.wav"
+    }
+}
