@@ -14,6 +14,7 @@ StartFB::StartFB(QWidget *parent)
     connect(ui->action, &QAction::triggered, this, &StartFB::view_about);
     connect(ui->LoginpushButton, &QPushButton::clicked, this, &StartFB::login);
     connect(ui->action_M, &QAction::triggered, this, &StartFB::view_guide);
+    connect(ui->action_V, &QAction::triggered, this, &StartFB::visitor);
 
     if (QSqlDatabase::contains("qt_sql_default_connection"))
     {
@@ -190,6 +191,10 @@ bool StartFB::update_list()
     writeStream.setEncoding(QStringConverter::Utf8);
     writeStream << list.toJson();
     return true;
+}
+
+void StartFB::visitor() {
+    QMessageBox::warning(this, "Yahaha!", "Please register to play!");
 }
 
 StartFB::~StartFB()

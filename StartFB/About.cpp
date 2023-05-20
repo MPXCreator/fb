@@ -13,6 +13,9 @@ About::About(QWidget *parent)
 
 	connect(ui->ConfirmpushButton, &QPushButton::clicked, this, &About::Confirm);
 	connect(ui->GitHubpushButton, &QPushButton::clicked, this, &About::GitHub);
+
+	ui->Versionlabel->setText("Version: Beta v0.1.1");
+	ui->Versionlabel->setAlignment(Qt::AlignRight);
 }
 
 About::~About()

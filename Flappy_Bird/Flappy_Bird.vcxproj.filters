@@ -26,8 +26,5 @@
     <ClInclude Include="renderman.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ex_easyx.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

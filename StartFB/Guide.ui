@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>330</width>
-    <height>430</height>
+    <height>381</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <x>0</x>
      <y>70</y>
      <width>331</width>
-     <height>361</height>
+     <height>311</height>
     </rect>
    </property>
    <property name="font">
@@ -36,7 +36,7 @@ li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'等线'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Microsoft YaHei UI';&quot;&gt;Flappy Bird是一款简单而又有趣的游戏，你的目标是控制一只小鸟在空中飞行，避开障碍物，尽可能地飞得更远。游戏的操作很简单，只需要点击鼠标，就可以让小鸟上升一段距离，松开后小鸟会下降。你需要掌握好时机，让小鸟在上下移动的管道之间穿梭，每通过一个管道，你就可以得到一分。但是要注意，如果小鸟碰到管道或者落到地面上，游戏就会结束。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Microsoft YaHei UI';&quot;&gt;除了原版的玩法外，我们还为你提供了一些新的功能，让你可以更加自由地享受游戏。首先，你可以通过按键来改变小鸟的横向速度，这样你可以更灵活地调整小鸟的位置，避开更多的障碍物（你可以按住Ctrl键来加速小鸟的飞行，这样你可以更快地通过管道。但是要小心，加速后小鸟会更难控制，也更容易撞到管道。同样地，你也可以按住Shift键来减速小鸟的飞行，这样你可以更稳定地飞行）。最后，你还可以为游戏内的元素选择多种皮肤，比如小鸟、管道、背景等等。你可以在设置菜单中选择预设的皮肤，也可以自己进行自定义来导入皮肤文件。这样你就可以根据自己的喜好来打造一个独一无二的Flappy Bird游戏。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Microsoft YaHei UI';&quot;&gt;除了原版的玩法外，我们还为你提供了一些新的功能，让你可以更加自由地享受游戏。首先，你可以通过按键来改变小鸟的横向速度，这样你可以更灵活地调整小鸟的位置，避开更多的障碍物，按键支持键鼠与手柄，具体方式请查看用户手册。最后，你还可以为游戏内的元素选择多种皮肤，比如小鸟、管道、背景等等。你可以在设置菜单中选择预设的皮肤，也可以自己进行自定义来导入皮肤文件。这样你就可以根据自己的喜好来打造一个独一无二的Flappy Bird游戏。&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Microsoft YaHei UI';&quot;&gt;希望这个指南能够帮助你更好地玩Flappy Bird游戏，祝你玩得开心！&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>

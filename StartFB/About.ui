@@ -36,14 +36,14 @@
    <widget class="QLabel" name="Versionlabel">
     <property name="geometry">
      <rect>
-      <x>330</x>
+      <x>160</x>
       <y>90</y>
-      <width>101</width>
-      <height>16</height>
+      <width>271</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>Version: Beta 0.1</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;Version: Beta v0.1.0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -77,7 +77,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>30</x>

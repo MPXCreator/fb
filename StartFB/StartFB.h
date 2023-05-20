@@ -11,6 +11,7 @@
 #include <QSqlDatabase>
 #include <QSqlError>
 #include <QSqlQuery>
+#include <QDate>
 #include "Guide.h"
 #include "User.h"
 #include "DIY.h"
@@ -41,6 +42,7 @@ private slots:
     void view_about();
     void login();
     void view_guide();
+    void visitor();
 
 private:
     Ui::StartFBClass *ui;

@@ -4,6 +4,10 @@ User::User(UserInfo* u, QWidget *parent)
 	: usr(u), QMainWindow(parent)
 	, ui(new Ui::UserClass())
 {
+	QIcon icon = QApplication::style()->standardIcon((QStyle::StandardPixmap)0);
+	trayIcon = new QSystemTrayIcon(this);
+	trayIcon->setIcon(icon);
+
 	ui->setupUi(this);
 	ui->HelloLabel->setText("Hello, " + usr->getInfo("username").toString() + "!");
 	connect(ui->action_A, &QAction::triggered, this, &User::view_about);
@@ -155,9 +159,12 @@ void User::processRes(int ret)
 		return;
 	}
 	int score = file.readAll().toInt();
+	QFile::remove("result");
 	usr->addHistory(score);
+	QIcon icon = QApplication::style()->standardIcon((QStyle::StandardPixmap)9);
+	trayIcon->showMessage("Game Over!", QString("You got ") + QString::number(score) + " points!", icon);
 	QMessageBox msgBox;
-	msgBox.setText("WARNING");
+	msgBox.setText("Note");
 	msgBox.setInformativeText("Do you want to add this result to the leaderboard?");
 	msgBox.setStandardButtons(QMessageBox::Ok | QMessageBox::Cancel);
 	msgBox.setDefaultButton(QMessageBox::Ok);

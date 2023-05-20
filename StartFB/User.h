@@ -13,6 +13,8 @@
 #include <QSqlError>
 #include <QSqlQuery>
 #include <QSqlRecord>
+#include <QSystemTrayIcon>
+#include <qicon.h>
 #include "Guide.h"
 #include "HistoryViewer.h"
 #include "UserInfoChanger.h"
@@ -54,4 +56,5 @@ private:
 	UserInfo* usr;
 	QProcess* process;
 	QSqlDatabase database;
+	QSystemTrayIcon* trayIcon = new QSystemTrayIcon(this);
 };
